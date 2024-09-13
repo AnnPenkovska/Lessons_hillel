@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIT</title>
+    <title>GREENSHOP</title>
+    <style>
+        body {
+           text-align: center;background-color: rgb(222, 243, 236);
+        }
+        a {
+            margin: 25px; font-size: 30px;color: rgb(29, 174, 29); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        }
+        input {
+            border: 10px;border-radius: 5px;border-color: black;padding: 20px;
+        }
+            
+    </style>
 </head>
 <body>
-    <h1>GIT</h1>
+     <header>
+        <nav>
+            <a href="./index.html">Register</a>
+            <a href="./pages/login.html">Login</a>
+        </nav>
+     </header>
+     <p style="font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Enter your mail and password to register</p>
+     <form action="https://fom.in.ua/echo"method="get">
+        <div>
+           <input type="text" name="username" placeholder="Username" required>
+        </div><br><br>
+        <div>
+            <input type="email" name="email" placeholder="Enter your email address" required>
+        </div><br><br>
+        <div>
+            <input type="password" name="password" placeholder="Password" required>
+        </div><br><br>
+        <div>
+            <input type="password" name="confirm password" placeholder="Confirm password" required>
+        </div><br><br>
+        <input style="color: rgb(3, 14, 3);background-color: rgb(28, 199, 28);" type="submit" value="Register">
+        <hr>
+        <div>
+            <p style="font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Or register with </p>
+            <nav>
+                <a href="https://google.com.ua">Continue with Google</a>
+                <a href="https://www.facebook.com">Continue with Facebook</a>
+            </nav>
+        </div>
+     </form>
 </body>
 </html>
