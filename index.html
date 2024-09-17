@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
      <header>
+        <div class="registration">Registration form</div>
         <nav>
             <a href="./index.html">Register</a>
             <a href="./pages/login.html">Login</a>
         </nav>
      </header>
+     <hr>
      <p>Enter your mail and password to register</p>
      <form action="https://fom.in.ua/echo"method="get">
         <div>
@@ -27,15 +30,16 @@
         <div>
             <input type="password" name="confirm password" placeholder="Confirm password" required>
         </div><br><br>
-        <input type="submit" value="Register">
+        <input class="button" type="submit" value="Register"><br><br>
         <hr>
         <div>
             <p> Or register with </p>
-            <img src="./img/логотип-google-vector-современный-популярный-значок-для-дизайна-вашего-220252004.webp" alt="google">
-            <img src="./img/Facebook_logo_(square).png" alt="facebook">
-            <nav>
-                <a href="https://google.com.ua">Continue with Google</a>
-                <a href="https://www.facebook.com">Continue with Facebook</a>
+            
+             <nav>
+                <a class="link" href="https://google.com.ua">Continue with Google</a>
+                <img src="./img/логотип-google-vector-современный-популярный-значок-для-дизайна-вашего-220252004.webp" alt="google">
+                <a class="link" href="https://www.facebook.com">Continue with Facebook</a>
+                <img src="./img/Facebook_logo_(square).png" alt="facebook">
             </nav>
         </div>
      </form>
