@@ -3,44 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
+    <title>GREENSHOP register</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-     <header>
-        <div class="registration">Registration form</div>
-        <nav>
-            <a href="./index.html">Register</a>
-            <a href="./pages/login.html">Login</a>
-        </nav>
-     </header>
-     <hr>
-     <p>Enter your mail and password to register</p>
-     <form action="https://fom.in.ua/echo"method="get">
-        <div>
+       <div class="form-container">
+       <section>
+        <h1>
+            Login
+            <span class="text-divider"></span>
+            <span class="colored-text">Register</span>
+        </h1>
+        <p class="reg-text">Enter your email and password to register.</p>
+      
+        <form action="https://fom.in.ua/echo" method="get">
            <input type="text" name="username" placeholder="Username" required>
-        </div><br><br>
-        <div>
-            <input type="email" name="email" placeholder="Enter your email address" required>
-        </div><br><br>
-        <div>
-            <input type="password" name="password" placeholder="Password" required>
-        </div><br><br>
-        <div>
-            <input type="password" name="confirm password" placeholder="Confirm password" required>
-        </div><br><br>
-        <input class="button" type="submit" value="Register"><br><br>
-        <hr>
-        <div>
-            <p> Or register with </p>
-            
-             <nav>
-                <a class="link" href="https://google.com.ua">Continue with Google</a>
-                <img src="./img/логотип-google-vector-современный-популярный-значок-для-дизайна-вашего-220252004.webp" alt="google">
-                <a class="link" href="https://www.facebook.com">Continue with Facebook</a>
-                <img src="./img/Facebook_logo_(square).png" alt="facebook">
-            </nav>
+           <input type="email" name="email" placeholder="Enter your email address" required>
+           <input type="password" name="password" placeholder="Password" required>
+           <input type="password" name="confirm password" placeholder="Confirm password" required><br><br>
+           <input class="button" type="submit" value="Register">
+        </form>
+
+       <div class="line-label">
+            <span></span>
+            Or register with
+            <span></span>
+       </div>
+
+         <div class="soc-reg">
+            <button>
+            <img src="./img/google.svg" alt="google">   
+            Continue with Google
+            </button> <br>
+            <button>
+            <img src="./img/facebook.svg" alt="facebook">
+            Continue with Facebook
+             </button>
         </div>
-     </form>
+        </section>
+
+        <div class="colored-line"></div>
+    </div>
+    
+        
 </body>
 </html>
