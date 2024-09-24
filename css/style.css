@@ -121,9 +121,6 @@ a {
     border-style: none;
     }
     .plants-images {
-       display: inline-block;
-       width: 30%;
-       margin-left: 123px;
-       margin-top: 95px;
-      
+        margin-left: 700px;
+        margin-top: -400px;
     }
