@@ -19,10 +19,9 @@ html{
 }
   * {
         margin: 0;
-        padding:0;
+        padding: 0;
         box-sizing: border-box;
-        }
-        
+        }    
 header {
     display: inline-block;
     width: 1200px;
@@ -48,12 +47,12 @@ a {
     line-height: 20.11px;
     margin-bottom: 25px;
     }
-.link1 {
+.greenlink {
     color:#3D3D3D;
     font-weight: 700;
 }
 .login {
-    border:1px solid;
+    border: 1px solid;
     padding-right: 5px;
     background-color: #46A358;
     color: #FFFFFF;
@@ -62,7 +61,6 @@ a {
     margin-top: 7px;
     margin-bottom: 8px;
     margin-right: 25px;
-   
    }
 .login img {
     vertical-align: middle;
@@ -75,52 +73,68 @@ a {
     height: 0.5px;
     vertical-align: middle;
     margin-top: 2px;
+    
 }
-.hero-section {
+main {
+    font-size: 0;
     display: inline-block;
-    width: 1200px;
-    height: 450px;
+    }
+
+.first-block {
+    display: inline-block;
     background-color: #F5F5F580;
-    margin:12px 120px 52px ;
+    margin: 12px 0 52px 120px;
+    vertical-align: top;
+    width: 750px;
+    height: 450px;
+   
 }
-.welcome {
-   width: 205px; 
-   margin: 68px 952px 7px 43px;
+.second-block {
+   display: inline-block;
+   background-color: #F5F5F580;
+   margin: 12px 0 52px 0;
+   width: 450px;
+   height: 450px;
+   padding-top: 50px;
+   
+ }
+   .heading {
+    padding-top: 68px;
+    margin-left: 43px;
+    width: 205px; 
     font-size: 14px;
     color: #3D3D3D;
     font-weight: 500;
-    line-height: 16px;
-}
-.lets {
+  }
+  .subheading {
     width: 530px;
     font-family: "cerapro-black";
     font-weight: 900;
     font-size: 70px;
     line-height: 70px;
-    margin: 7px 952px 7px 43px;
-}
-.green-text {
+    margin-left: 43px;
+    }
+  .green-text {
     color: #46A358;
-}
-.we {
-    margin: 5px 600px 0 43px;  
+   }
+  .text {
     font-size: 14px;
-    line-height: 24px;
     font-weight: 400;
     color: #727272;
-}
+    margin-left: 43px;
+    line-height: 24px;
+    padding-top: 10px;
+   }
+
 .button-shop {
     width: 140px;
     height: 40px;
-    margin: 44px 1019px 85px 41px;
-    border:1px solid;
+    border: 1px solid;
     background-color: #46A358;
     font-family: "cerapro-bold";
     color: #FFFFFF;
     border-radius: 6px;
     border-style: none;
-    }
-    .plants-images {
-        margin-left: 700px;
-        margin-top: -400px;
+    margin-left: 43px;
+    margin-top: 44px;
     }
