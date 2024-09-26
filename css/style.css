@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "cerapro-reg";
+    src: url("../fonts/CeraPro-Regular.ttf");
+}
+@font-face {
+    font-family: "cerapro-bold";
+    src: url("../fonts/CeraPro-Bold.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }    
+html {
+    font-family: "cerapro-reg";
+    }
+.container {
+    width: 838px;
+    height: 23px;
+    font-size: 15px;
+    margin-left: 500px;
+    margin-top: 70px;
+    display: inline-block;
+   }
+    .greenlink {
+        color:#46A358 ;
+        }
+    .greenlink, .link, .sort {
+        text-decoration: none;
+        }
+    .link {
+        margin-left: 37px;
+        color:#3D3D3D ;
+    }
+    .sort {
+        margin-left: 300px;
+        color:#3D3D3D ;
+    }
+    img {
+        vertical-align: middle;
+    }
+    .list {
+        display: inline-block;
+        vertical-align: top;
+        border-width: 310px;
+        background-color: #FBFBFB;
+        margin: 0 50px 0 135px;
+        padding-right: 189px;
+        font-size: 15px;
+        line-height: 40px;
+        }
+        li {
+            list-style-type: none;
+            padding-left: 30px;
+        }
+        .name {
+            font-family: "cerapro-bold";
+            font-size: 18px;
+            color: #3D3D3D;
+
+        }
+        .ending {
+            padding-bottom: 377px;
+        }
+        .banner img {
+            margin-left: 135px;
+            padding: 15px;
+            background-color: #46A3581A;
+        }
+      section {
+        float: right;
+      }
