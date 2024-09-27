@@ -7,23 +7,23 @@
     src: url("../fonts/CeraPro-Bold.ttf");
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
     }    
 html {
-    font-family: "cerapro-reg";
+     font-family: "cerapro-reg";
     }
 
 nav {
-     padding-bottom: 31px;
+      padding-bottom: 31px;
     }
 .greenlink, .link, .sort {
-    text-decoration: none;
+      text-decoration: none;
     }
 .greenlink {
-     color:#46A358 ;
-    padding-left: 21px;
+       color:#46A358 ;
+       padding-left: 21px;
 }
 .link {
         margin-left: 37px;
@@ -32,12 +32,20 @@ nav {
 .sort {
         margin-left: 270px;
         color:#3D3D3D ;
-        
-    }  
+        }  
      
 img {
         vertical-align: middle;
         max-width: 100%;
+    }
+.line {
+    display: inline-block;
+    background-color:#46A358;
+    width: 65px;
+    height: 2px;
+    vertical-align: middle;
+    margin-left: 22px;
+
     }
 .main-container {
         display: flex;
@@ -57,25 +65,26 @@ li {
         background-color: #FBFBFB;
         }
 .greenlink-list {
-            color:#46A358 ;   
+        color:#46A358 ;   
             }
 .name {
-            font-family: "cerapro-bold";
-            font-size: 18px;
-            color: #3D3D3D;
+        font-family: "cerapro-bold";
+        font-size: 18px;
+        color: #3D3D3D;
         }
 .ending {
-            padding-bottom: 150px;
+        padding-bottom: 150px;
         }
  
 .banner img{
-    display: block;
-    margin: 0 auto;
+        display: block;
+        margin: 0 auto;
+        background-color:#46A3581A ;
 }
 .container {
-     max-width: 64%;
-     margin:0 auto;
-     padding-right: 200px;
+        max-width: 64%;
+        margin:0 auto;
+        padding-right: 200px;
      
     }
 .products {
@@ -112,4 +121,28 @@ li {
         font-weight: 700;
         padding-left: 26px;
     }
-      
+footer {
+        margin: 90px 0 40px 1050px;
+}
+.page,.greenpage {
+       color: #3D3D3D;
+       float: left;
+       padding: 3px 11px;
+       text-decoration: none;
+       border: 1px solid #E5E5E5; 
+       margin: 0 4px;
+       border-radius: 5px;
+       font-size: 16px;
+       }
+
+.img-btn {
+       border: 1px solid #E5E5E5; 
+       margin: 0 4px;
+       border-radius: 5px; 
+       padding: 7px 11px;
+}
+
+.greenpage {
+       color: #E5E5E5;
+       background-color: #46A358;
+}
