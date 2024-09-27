@@ -14,59 +14,102 @@
 html {
     font-family: "cerapro-reg";
     }
-.container {
-    width: 838px;
-    height: 23px;
-    font-size: 15px;
-    margin-left: 500px;
-    margin-top: 70px;
-    display: inline-block;
-   }
-    .greenlink {
-        color:#46A358 ;
-        }
-    .greenlink, .link, .sort {
-        text-decoration: none;
-        }
-    .link {
+
+nav {
+     padding-bottom: 31px;
+    }
+.greenlink, .link, .sort {
+    text-decoration: none;
+    }
+.greenlink {
+     color:#46A358 ;
+    padding-left: 21px;
+}
+.link {
         margin-left: 37px;
         color:#3D3D3D ;
     }
-    .sort {
-        margin-left: 300px;
+.sort {
+        margin-left: 270px;
         color:#3D3D3D ;
-    }
-    img {
+        
+    }  
+     
+img {
         vertical-align: middle;
+        max-width: 100%;
     }
-    .list {
-        display: inline-block;
+.main-container {
+        display: flex;
+        margin-top: 100px;
+    }
+.sidebar {
+        max-width: 36%;
+        margin-left: 135px;
+        padding-left: 100px;
         vertical-align: top;
-        border-width: 310px;
-        background-color: #FBFBFB;
-        margin: 0 50px 0 135px;
-        padding-right: 189px;
         font-size: 15px;
         line-height: 40px;
         }
-        li {
-            list-style-type: none;
-            padding-left: 30px;
+li {
+        list-style-type: none;
+        padding-left: 30px;
+        background-color: #FBFBFB;
         }
-        .name {
+.greenlink-list {
+            color:#46A358 ;   
+            }
+.name {
             font-family: "cerapro-bold";
             font-size: 18px;
             color: #3D3D3D;
-
         }
-        .ending {
-            padding-bottom: 377px;
+.ending {
+            padding-bottom: 150px;
         }
-        .banner img {
-            margin-left: 135px;
-            padding: 15px;
-            background-color: #46A3581A;
+ 
+.banner img{
+    display: block;
+    margin: 0 auto;
+}
+.container {
+     max-width: 64%;
+     margin:0 auto;
+     padding-right: 200px;
+     
+    }
+.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+.product {
+       width: 250px;
+       margin-top: 15px;
+       margin-left: 5px;
         }
-      section {
-        float: right;
-      }
+.product-image {
+        height: 250px;
+    }
+.product-image img {
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+    }
+.product-desk {
+        font-size: 16px;
+        line-height: 16px;
+        color:#3D3D3D ;
+        font-weight: 400;
+        padding: 8px 26px;
+    }
+.price {
+        font-size: 18px;
+        line-height: 16px;
+        color:#46A358 ;
+        font-weight: 700;
+        padding-left: 26px;
+    }
+      
