@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "cerapro-reg";
+    src: url("../fonts/CeraPro-Regular.ttf");
+}
+@font-face {
+    font-family: "cerapro-bold";
+    src: url("../fonts/CeraPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: "cerapro-black";
+    src: url("../fonts/CeraPro-Black.ttf");
+}
+@font-face {
+    font-family: "cerapro-medium";
+    src: url("../fonts/CeraPro-Medium.ttf");
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }    
+html{
+font-family:"cerapro-reg";
+    }
+
+   .products {
+    display: flex;
+    justify-content: space-around;
+  
+}
+ 
+  .product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .product-img{
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+   .product-details {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    
+  }
+
+   .title {
+    font-family: "cerapro-black";
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    width: 170px;
+  }
+
+    .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #727272;
+    width: 312px;
+    margin: 16px 0;
+  }
+  .button {
+    vertical-align: middle;
+    border: 1px solid;
+    background-color: #46A358;
+    font-family: "cerapro-medium";
+    color: #FFFFFF;
+    border-radius: 6px;
+    border-style: none;
+    margin-left: 43px;
+    margin-top: 44px;
+    width: 140px;
+    height: 40px;
+    }
+  .image-right {
+    max-width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    }
+    .blog-parts {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .blog-logo {
+      text-align: center;
+    }
+    .blog-image {
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+    }
+    .blog-title {
+      width: 190px;
+      height: 50px;
+    }
+    .blog-text {
+      width: 250px;
+      height: 60px;
+    }
