@@ -21,9 +21,234 @@
      padding: 0;
      box-sizing: border-box;
     }    
+
 html{
 font-family:"cerapro-reg";
+  }
+header{
+  max-width: 79%;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.header-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.link-logo {
+  text-decoration: none;
+  font-family: "cerapro-reg";
+  font-size: 16px;
+  color: #3D3D3D;
+  font-weight: 400;
+  line-height: 20.11px;
+}
+.greenlink-logo{
+  color:#3D3D3D;
+  font-weight: 700;
+  font-family: "cerapro-bold";
+  text-decoration: none;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5px;
+    width: 100px;
+    height: 35px;
+    background-color: #46a358;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #FFFFFF;
+   
+}
+  .login img {
+    vertical-align: middle;
+    padding-left: 15px;
+}
+.first-line span {
+  display: inline-block;
+  background-color:#46A35880;
+  max-width: 79%;
+  height: 0.5px;
+  vertical-align: middle;
+  margin-top: 2px;
+}
+.welcome-block {
+  max-width: 79%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F5F5F580;
+  
+}
+.heading {
+  padding-top: 68px;
+  margin-left: 43px;
+  width: 205px; 
+  font-size: 14px;
+  color: #3D3D3D;
+  font-weight: 500;
+}
+.subheading {
+    width: 530px;
+    font-family: "cerapro-black";
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    margin-left: 43px;
     }
+  .green-text {
+    color: #46A358;
+   }
+  .text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    margin-left: 43px;
+    line-height: 24px;
+    padding-top: 10px;
+   }
+
+
+
+nav {
+      padding-bottom: 31px;
+    }
+.greenlink, .link, .sort {
+      text-decoration: none;
+    }
+.greenlink {
+       color:#46A358 ;
+       padding-left: 21px;
+}
+.link {
+        margin-left: 37px;
+        color:#3D3D3D ;
+    }
+.sort {
+        margin-left: 270px;
+        color:#3D3D3D ;
+        }  
+     
+img {
+        vertical-align: middle;
+        max-width: 100%;
+    }
+.line {
+    display: inline-block;
+    background-color:#46A358;
+    width: 65px;
+    height: 2px;
+    vertical-align: middle;
+    margin-left: 22px;
+
+    }
+.main-container {
+        display: flex;
+        margin-top: 100px;
+    }
+.sidebar {
+        max-width: 36%;
+        margin-left: 50px;
+        padding-left: 100px;
+        vertical-align: top;
+        font-size: 15px;
+        line-height: 40px;
+        }
+li {
+        list-style-type: none;
+        padding-left: 30px;
+        background-color: #FBFBFB;
+        }
+.greenlink-list {
+        color:#46A358 ;   
+            }
+.name {
+        font-family: "cerapro-bold";
+        font-size: 18px;
+        color: #3D3D3D;
+        }
+.ending {
+        padding-bottom: 150px;
+        }
+ 
+.banner img{
+        display: block;
+        margin: 0 auto;
+        background-color:#46A3581A ;
+}
+.container {
+        max-width: 64%;
+        margin:0 auto;
+        padding-right: 200px;
+     
+    }
+.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+.product {
+       width: 250px;
+       margin-top: 15px;
+       margin-left: 5px;
+        }
+.product-image {
+        height: 250px;
+    }
+.product-image img {
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+    }
+.product-desk {
+        font-size: 16px;
+        line-height: 16px;
+        color:#3D3D3D ;
+        font-weight: 400;
+        padding: 8px 26px;
+    }
+.price {
+        font-size: 18px;
+        line-height: 16px;
+        color:#46A358 ;
+        font-weight: 700;
+        padding-left: 26px;
+    }
+footer {
+        margin: 90px 0 40px 1050px;
+}
+.page,.greenpage {
+       color: #3D3D3D;
+       float: left;
+       padding: 3px 11px;
+       text-decoration: none;
+       border: 1px solid #E5E5E5; 
+       margin: 0 4px;
+       border-radius: 5px;
+       font-size: 16px;
+       }
+
+.img-btn {
+       border: 1px solid #E5E5E5; 
+       margin: 0 4px;
+       border-radius: 5px; 
+       padding: 7px 11px;
+}
+
+.greenpage {
+       color: #E5E5E5;
+       background-color: #46A358;
+}
 
    .products {
     display: flex;
