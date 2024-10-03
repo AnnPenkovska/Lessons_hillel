@@ -262,18 +262,32 @@ font-family: "cerapro-bold";
         padding-left: 26px;
         margin-bottom: 70px;
     }
-footer {
- margin: 50px 0 40px 1150px;
+.footer-section {
+  max-width: 85%;
+  display: flex;
+  margin: 0 auto;
+  align-items: end;
+  
 }
-.page,.greenpage {
-       color: #3D3D3D;
-       float: left;
-       padding: 3px 11px;
-       text-decoration: none;
-       border: 1px solid #E5E5E5; 
-       margin: 0 4px;
-       border-radius: 5px;
-       font-size: 16px;
+.pages-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-left: auto;
+  
+}
+.page,.greenpage, .img-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: #3D3D3D;
+  float: left;
+  padding: 3px 11px;
+  text-decoration: none;
+  border: 1px solid #E5E5E5; 
+  margin: 0 4px;
+  border-radius: 5px;
+  font-size: 16px;
        }
 
 .img-btn {
@@ -287,32 +301,40 @@ footer {
        color: #E5E5E5;
        background-color: #46A358;
 }
+
+
 .main-blog{
   max-width: 85%;
   margin:0 auto; 
 }
 .products {
-   display: flex;
+  max-width: 100%;
+  margin-top: 94px;
+  display: flex;
   justify-content: space-between;
-  max-width: 100%; 
+  gap: 30px;
+  
 }
  .product {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: calc(100% - 30px);
+    
   }
 
   .product-img{
     height: 100%;
     object-fit: cover;
     display: block;
+    width: 45%;
+    
     
 }
 
    .product-details {
-    margin-left: auto;
+    width: 55%;
     display: flex;
-    justify-content:end;
+    justify-content:space-between;
     align-items: end;
     flex-direction: column;
     
@@ -321,7 +343,7 @@ footer {
    .title {
     font-family: "cerapro-black";
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.15rem;
     line-height: 24px;
     text-align: right;
     text-transform: uppercase;
@@ -329,9 +351,9 @@ footer {
     width: 170px;
   }
 
-  .text {
+  .text-title {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 24px;
     text-align: right;
     color: #727272;
@@ -347,7 +369,7 @@ footer {
     border-radius: 6px;
     border-style: none;
     margin-left: 43px;
-    margin-top: 44px;
+    margin-top: 20px;
     width: 140px;
     height: 40px;
     }
@@ -356,26 +378,96 @@ footer {
     margin: 0 auto;
     vertical-align: middle;
     }
+
+    .blog-logo {
+      margin-top: 138px;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 15px;
+      align-items: center;
+    }
+    .blog-heading {
+      font-family: "cerapro-bold";
+      color: #3D3D3D;
+      font-size: 1.8rem;
+      line-height: 16px;
+      width: 209px;
+    }
+    .blog-subheading {
+      color: #727272;
+      font-size: 0.87rem;
+      line-height: 24px;
+      margin-bottom: 35px;
+    }
+
     .blog-parts {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      min-width: 100%;
+      max-width: 100%;
+      flex-wrap: nowrap;
+      margin-bottom: 100px;
     }
-    .blog-logo {
-      text-align: center;
-    }
+.blog-part {
+  width: calc(25% - 35px);
+  min-height: 300px;  
+  display: flex;
+  flex-direction: column;  
+}
+   
     .blog-image {
-        height: 100%;
-        object-fit: cover;
-        display: block;
+        max-width: 100%;
+        background-color: #FBFBFB;    
         margin: 0 auto;
     }
+    .blog-image img{
+      object-fit: cover;
+    
+    }
+    .blog-details{
+      background-color: #FBFBFB;
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin: 0 auto;
+    }
     .blog-title {
-      width: 190px;
+      font-family: "cerapro-bold";
+      color:#3D3D3D;
+      font-size: 1.25rem;
+      line-height: 26px;
+      margin-top:4px ;
+      margin-left: 15px;
+      width: 220px;
       height: 50px;
     }
     .blog-text {
-      width: 250px;
+      color: #727272;
+      font-size: 0.88rem;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 4px;
+      margin-left: 15px;
+      width: 255px;
       height: 60px;
+    }
+    .subtext {
+      margin-top: 9px;
+      margin-left: 15px;
+      font-family: "cerapro-medium";
+      color:#46A358;
+      font-size: 0.87rem;
+      background-color: #FBFBFB;
+    }
+    .blog-link{
+      text-decoration: none;
+      font-size: 0.87rem;
+      color: #3D3D3D;
+      line-height: 16px;
+      margin-top: 9px;
+      margin-bottom: 10px;
+      margin-left: 15px;
+      font-family: "cerapro-medium";
     }
