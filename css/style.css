@@ -235,7 +235,7 @@ font-family: "cerapro-bold";
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 40px;
+    column-gap: 40px;
     max-height: 100%;
     max-width: 100%;
   }
@@ -243,25 +243,29 @@ font-family: "cerapro-bold";
   .card {
     width: calc(33.333% - 40px);
     min-height: 300px;  
+   
   }
   .card img {
     max-height: 100%;
+    max-width: 100%;
   }
 .card-desk {
-        font-size: 1rem;
-        line-height: 16px;
-        color:#3D3D3D ;
-        font-weight: 400;
-        padding: 8px 26px;
-    }
+  font-size: 1rem;
+  line-height: 16px;
+  color:#3D3D3D ;
+  font-weight: 400;
+  padding-top: 14px;
+  }
+
 .price {
-        font-size: 1.13rem;
-        line-height: 16px;
-        color:#46A358 ;
-        font-weight: 700;
-        padding-left: 26px;
-        margin-bottom: 70px;
-    }
+   font-size: 1.13rem;
+   line-height: 16px;
+   color:#46A358 ;
+   font-weight: 700;
+   padding-top: 7px;
+   margin-bottom: 70px;
+  }
+
 .footer-section {
   max-width: 85%;
   display: flex;
