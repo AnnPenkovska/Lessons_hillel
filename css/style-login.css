@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "cerapro-reg";
+    src: url("../fonts/CeraPro-Regular.ttf");
+}
+@font-face {
+    font-family: "cerapro-bold";
+    src: url("../fonts/CeraPro-Bold.ttf");
+}
+@font-face {
+    font-family: "cerapro-med";
+    src: url("../fonts/CeraPro-Medium.ttf");
+}
+html{
+    font-family: "cerapro-reg";
+}
+  * {
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        }
+
+.form-container {
+ width: 332px;
+ margin: 30px auto;
+ padding: 0 16px;
+}
+h1 {
+    font-family: "cerapro-med";
+    font-size: 20px;
+    text-align: center;
+    margin: 52px 0 40px;
+}
+.text-divider {
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #3D3D3D;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.colored-text {
+    color:#46A358 ;
+}
+.reg-text {
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+input {
+    padding: 12px 14px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border:1px solid #EAEAEA ;
+    color: #A5A5A5;
+}
+.button {
+    font-family: "cerapro-bold";
+    width: 100%;
+    padding: 16px 0 14px;
+    background-color:#46A358 ;
+    color: #FFFFFF;
+    border: none ;
+    margin-bottom: 36px;
+}
+.line-label {
+    text-align: center;
+    margin-bottom: 28px;
+}
+.line-label span {
+    display: inline-block;
+    background-color:#EAEAEA ;
+    width: 82px;
+    height: 1px;
+    vertical-align: middle;
+}
+.soc-reg button {
+    background-color: white;
+    width: 100%;
+    padding: 16px 0 14px;
+    border: 1px solid #EAEAEA ;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    color:#727272 ;
+    font-family: "cerapro-bold";
+    font-weight: 500;
+    }
+
+.soc-reg button img {
+    vertical-align: middle;
+    margin-right: 9px;
+}
+.colored-line {
+    height: 10px;
+    background-color: #46A358;
+}
+.logout {
+    vertical-align:auto;
+}
