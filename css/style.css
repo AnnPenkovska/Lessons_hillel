@@ -165,13 +165,12 @@ aside {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .categories {
   background-color: #FBFBFB;
   padding: 14px 18px;
-  padding-bottom: 310px;
+  padding-bottom: 350px;
   font-size: 0.9rem;
   line-height: 35px;
 }
@@ -194,11 +193,14 @@ nav a {
   color: #3D3D3D;
 }
 .banner {
-  width: 100%;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;  
   text-align: center;
+}
+.banner img {
+  max-width:100%;
 }
 .right-side {
   max-width: 74%;
@@ -233,62 +235,74 @@ margin-left: auto;
 .cards {
   margin-top: 31px;
   display: flex;
+  gap: 40px;
   flex-wrap: wrap;
-  align-items: baseline;
-  column-gap: 40px;
-  max-height: 100%;
-  max-width: 100%;
 }
 
 .card {
   width: calc(33.333% - 40px);
-  min-height: 300px;  
+  border-top: 2px solid transparent;
+}
+.card:hover .card-btns{
+  opacity: 1;
+  visibility: visible;
+}
+.card:hover {
+  border-top: 2px solid #46A358;
+}
+.card-image {
+  padding: 30px 10px;
+  background-color: #FBFBFB;
   position: relative;
   
 }
-
-.card:hover .card-hover {
- opacity: 1;
-  
-}
-.card-hover {
-  display: flex;
-  gap: 20px;
-  position: absolute;
+.card-image img {
   width: 100%;
-  right: 15px;
-  bottom: 128px;
-  justify-content: center;
-  align-items: center;
-  transition: 0.6s ease;
-  opacity: 0;
 }
 
+.card-btns {
+  display: flex;
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.6s ease;
+  max-width: 100%;
+}
+.card-btns img {
+  max-width: 100%;
+  padding: 6px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
 .card-sale {
   position: absolute;
   top: 14px;
+  left: 0;
   border: 1px solid #46A358;
   background-color: #46A358;
   width: 80px;
   height:29px ;
 }
-button {
-  background-color: #FFFFFF;
-  border-radius: 3px;
-  border: none;
-  height: 20px;
-  width:20px;
-}
-.text-sale{
+.card-sale p {
   padding-top: 3px;
   text-align: center;
   color: #FFFFFF;
   font-size: 1rem;
 }
-.card img {
-  max-height: 100%;
-  max-width: 100%;
+.price span {
+  margin-left: 16px;
+  color:#A5A5A5 ;
+  text-decoration: line-through;
+  font-size: 1.13rem;
+  font-weight: 400;
+  text-decoration-thickness: 1px;
 }
+
 
 .card-desk {
 font-size: 1rem;
