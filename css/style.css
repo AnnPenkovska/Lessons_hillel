@@ -632,15 +632,15 @@ footer {
 }
 
 .text-box1 {
-  background-image: url(/img/picture-bg1.png);
+  background-image: url("/img/picture-bg1.png");
 }
 
 .text-box2 {
-  background-image: url(/img/picture-bg2.png);
+  background-image: url("/img/picture-bg2.png");
 }
 
 .text-box3 {
-  background-image: url(/img/picture-bg3.png);
+  background-image: url("/img/picture-bg3.png");
 }
 
 .verticalLine {
@@ -722,6 +722,13 @@ color: #FFFFFF;
   padding-bottom: 20px;
 }
 
+.end-box-first, .end-box-second, .end-box-third {
+  width: 20%;
+}
+.end-box-second, .end-box-third {
+  margin-left: 60px;
+}
+
 .footer-end-section li {
   list-style: none;
   font-size: 0.8rem;
@@ -731,16 +738,10 @@ color: #FFFFFF;
   padding-bottom: 10px;
 }
 
-.end-box-1, .end-box-2, .end-box-3 {
-  width: 20%;
+.end-box-fourth {
+  margin-left: 25px;
 }
-.end-box-2, .end-box-3 {
-  margin-left: 60px;
-}
-.end-box-4 {
-  margin-left: 30px;
-}
-.end-box-4 img {
+.end-box-fourth img {
   padding-bottom: 10px;
   padding-right: 5px;
   cursor: pointer;
