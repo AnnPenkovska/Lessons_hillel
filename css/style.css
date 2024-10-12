@@ -632,15 +632,15 @@ footer {
 }
 
 .text-box1 {
-  background-image: url("/img/picture-bg1.png");
+  background-image: url("./img/picture-bg1.png");
 }
 
 .text-box2 {
-  background-image: url("/img/picture-bg2.png");
+  background-image: url("./img/picture-bg2.png");
 }
 
 .text-box3 {
-  background-image: url("/img/picture-bg3.png");
+  background-image: url("./img/picture-bg3.png");
 }
 
 .verticalLine {
