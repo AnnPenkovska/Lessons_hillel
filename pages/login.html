@@ -7,44 +7,48 @@
     <link rel="stylesheet" href="../css/style-login.css">
 </head>
 <body>
-       <div class="form-container">
-       <section>
-        <h1>
-            Login
-            <span class="text-divider"></span>
-            <span class="colored-text">Register</span>
-        </h1>
-        <p class="reg-text">Enter your email and password to register.</p>
-      
-        <form action="https://fom.in.ua/echo" method="get">
-           <input type="text" name="username" placeholder="Username" required>
-           <input type="email" name="email" placeholder="Enter your email address" required>
-           <input type="password" name="password" placeholder="Password" required>
-           <input type="password" name="confirm password" placeholder="Confirm password" required><br><br>
-           <input class="button" type="submit" value="Register">
-        </form>
-
-       <div class="line-label">
-            <span></span>
-            Or register with
-            <span></span>
+ <div class="form-container">
+     <div class="register-logo">
+        <div class="register-links">
+      <a class="reg-links" href="#">Login</a>
+       <span class="text-divider">I</span>
+        <a class="colored-text" href="#">Register</a>
        </div>
-
-         <div class="soc-reg">
-            <button>
-            <img src="../img/google.svg" alt="google">   
-            Continue with Google
-            </button> <br>
-            <button>
-            <img src="../img/facebook.svg" alt="facebook">
-            Continue with Facebook
-             </button>
-        </div>
-        </section>
-
-        <div class="colored-line"></div>
+         <p class="reg-text">Enter your email and password to register.</p>
+     </div>
+     <div class="form">
+       <form action="https://fom.in.ua/echo" method="get">
+        <input class="input" type="text" name="username" placeholder="Username" required>
+        <input class="input" type="email" name="email" placeholder="Enter your email address" required>
+        <input class="password-reg" type="password" name="password" placeholder="Password" required>
+        <input class="input" type="password" name="confirm password" placeholder="Confirm password" required>
+        <input class="button" type="submit" value="Register">
+     </form>
+     </div>
+     <form action="#">
+     <label for="check" class="custom-checkbox">
+        <input class="checkbox" type="checkbox" name="check" id="check"><p>I want to receive the newsletters.</p>
+        <div class="custom-checkbox-icon"></div>
+     </label>
+     </form>
+     <div class="line-label">
+        <span></span>Or register with<span></span>
+     </div>
+   <div class="soc-reg">
+     <button type="button">
+      <svg width="20px" height="20px">
+        <use href="../img/sprite.svg#google-register"></use>
+      </svg>  
+     <a class="reg-links" href="https://www.google.com/">Continue with Google</a>
+      </button>
+        <button class="facebook-btn" type="button">
+            <svg width="20px" height="20px">
+              <use href="../img/sprite.svg#facebook-register"></use>
+            </svg>  
+        <a class="reg-links" href="https://www.facebook.com/">Continue with Facebook</a>
+        </button>
     </div>
-    
-        
+    <div class="colored-line"></div>
+</div>
 </body>
 </html>

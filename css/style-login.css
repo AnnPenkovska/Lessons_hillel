@@ -10,48 +10,70 @@
     font-family: "cerapro-med";
     src: url("../fonts/CeraPro-Medium.ttf");
 }
+@font-face {
+    font-family: "cerapro-thin";
+    src: url("../fonts/CeraPro-Thin.ttf");
+}
+
 html{
     font-family: "cerapro-reg";
 }
-  * {
-        margin: 0;
-        padding:0;
-        box-sizing: border-box;
-        }
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.reg-links {
+    text-decoration: none;
+    color: #3d3d33;
+}
 
 .form-container {
- width: 332px;
- margin: 30px auto;
- padding: 0 16px;
+   max-width: 20%;
+   margin: 0 auto;
 }
-h1 {
+.register-logo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.register-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
     font-family: "cerapro-med";
-    font-size: 20px;
-    text-align: center;
-    margin: 52px 0 40px;
+    font-size: 1.25rem;
 }
-.text-divider {
-    display: inline-block;
-    width: 1px;
-    height: 16px;
-    background-color: #3D3D3D;
-    vertical-align: middle;
-    margin: 0 10px;
+.register-links span {
+    font-family: "cerapro-thin";
 }
 .colored-text {
-    color:#46A358 ;
+    text-decoration: none;   
+    color: #46A358;
 }
 .reg-text {
-    font-size: 13px;
-    margin-bottom: 14px;
+    font-size: 0.8rem;
+    line-height: 16px;
+    margin-bottom: 15px;
 }
-input {
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input, .password-reg, .button {
+    display: flex;
     padding: 12px 14px;
     width: 100%;
     margin-bottom: 16px;
     border-radius: 5px;
     border:1px solid #EAEAEA ;
-    color: #A5A5A5;
+    font-size: 0.8rem;
+    font-family: "cerapro-reg";
+    cursor: pointer;
 }
 .button {
     font-family: "cerapro-bold";
@@ -60,39 +82,111 @@ input {
     background-color:#46A358 ;
     color: #FFFFFF;
     border: none ;
-    margin-bottom: 36px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
+
+.button:hover {
+    background-color: rgba(26, 113, 42, 1);
+}
+
 .line-label {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 28px;
+    font-size: 0.8rem;
+    margin-top: 20px;
 }
 .line-label span {
     display: inline-block;
     background-color:#EAEAEA ;
-    width: 82px;
+    width: 30%;
     height: 1px;
     vertical-align: middle;
 }
+.custom-checkbox {
+    display: flex;
+    align-items:center;
+    position: relative;
+    cursor: pointer;
+}
+.custom-checkbox-icon {
+ position: relative;   
+ width: 15px;
+ height:15px;
+ border: 1px solid #46A358;
+ border-radius: 3px;
+ margin-left: 5px;
+}
+.custom-checkbox-icon::before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 50%;
+    left: 50%;
+    background-color: #46A358;
+    opacity: 0.75;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.custom-checkbox input:checked ~.custom-checkbox-icon::before  {
+    display: block;
+}
+.custom-checkbox input {
+    display: none;
+}
+.custom-checkbox p {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 16px;
+    color: #3d3d33;
+    font-weight: 100px;
+}
+
+.soc-reg {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 .soc-reg button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     background-color: white;
     width: 100%;
-    padding: 16px 0 14px;
     border: 1px solid #EAEAEA ;
-    margin-bottom: 16px;
     border-radius: 5px;
     color:#727272 ;
-    font-family: "cerapro-bold";
+    font-family: "cerapro-med";
     font-weight: 500;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s ease;
     }
 
-.soc-reg button img {
-    vertical-align: middle;
-    margin-right: 9px;
+.soc-reg button:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
 .colored-line {
     height: 10px;
     background-color: #46A358;
 }
-.logout {
-    vertical-align:auto;
+
+.password-reg {
+    background-image: url("../img/Hide.jpg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+input:hover {
+ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;   
+}
+input:focus {
+    outline: none;
 }
