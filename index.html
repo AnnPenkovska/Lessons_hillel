@@ -37,9 +37,24 @@
         <li class="li-row">Blogs</li>
       </ul>
     </div>
-    <svg  width="20px" height="20px">
+    <div class="login-section">
+      <a href="#">
+    <svg class="header-icon" width="20px" height="20px">
       <use href="./img/sprite2.svg#header-icon-search"></use>
     </svg>  
+    </a>
+    <a href="#">
+    <svg class="header-icon" width="31px" height="24px">
+      <use href="./img/sprite2.svg#header-icon-basket"></use>
+    </svg>
+   </a>
+    <button class="login-button">
+      <svg width="20px" height="20px">
+        <use href="./img/sprite2.svg#icon-login"></use>
+      </svg>          
+         <a class="login" href="./pages/login.html">Login</a>   
+    </button>
+  </div>
        </div>
       <div class="first-line">
         <span></span>
@@ -101,16 +116,22 @@
           </div>
           <div class="price-range">
             <h3>Price Range</h3>
+            <div class="form">
             <form action="#">
-              <svg width="10px" height="10px">
-                <use href="./img/sprite.svg#range-icon"></use>
+              <svg class="range-icon" width="23px" height="23px">
+                <use href="./img/sprite2.svg#circle"></use>
               </svg>
               <input class="range" type="range" name="range" required>
             </form>
+           </div>
+           <div class="price-range-text">
             <p>Price:<span class="green-price-range">39$-1230$</span></p>
-            <button type="button" class="filter-button">Filter</button>
+            <button type="button" class="filter-button">
+             <a href="#">Filter</a>
+            </button>
           </div>
           <div class="size-gradation">
+            <h3>Size</h3>
             <div class="size-flowers">
               <a href="#">Small</a>
               <p class="amount">(119)</p>
