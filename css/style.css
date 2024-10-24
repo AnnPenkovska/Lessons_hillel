@@ -477,6 +477,7 @@ margin-top: 30px;
 
   .card-btns {
   display: flex;
+  gap: 7px;
   position:absolute;
   bottom: 0;
   left: 50%;
@@ -486,12 +487,10 @@ margin-top: 30px;
   transition: 0.6s ease;
   max-width: 100%;
   }
-  .card-btns img {
-  max-width: 100%;
-  padding: 6px;
+  .card-btns svg {
+  display: flex;
   background-color: #FFFFFF;
   border-radius: 4px;
-  margin: 5px;
   cursor: pointer;
   }
   .card-sale {
