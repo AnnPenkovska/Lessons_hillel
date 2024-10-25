@@ -729,6 +729,7 @@ margin-top: 30px;
   margin: 0 auto;
   }
 
+
   .blog-title {
   font-family: "cerapro-bold";
   color:#3D3D3D;
@@ -761,14 +762,19 @@ margin-top: 30px;
   }
 
   .blog-link {
+    display: flex;
+    align-items: center;
   text-decoration: none;
   font-size: 0.87rem;
   color: #3D3D3D;
   line-height: 16px;
-  margin-top: 9px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   margin-left: 15px;
   font-family: "cerapro-medium";
+  }
+  .blog-link:hover{
+   font-family: "cerapro-bold";
   }
 
   footer {
@@ -825,7 +831,7 @@ margin-top: 30px;
   margin-top: 30px;
   }
 
-  .heading-box {
+  .footer-main h2 {
   font-size: 1.06rem;
   font-family: "cerapro-bold";
   color: #3d3d3d;
@@ -884,15 +890,9 @@ margin-top: 30px;
   line-height: 22px;
   }
 
-  .footer-icon {
-  width: 20px;
-  height: 20px;
-  }
-
   .icon-search {
   vertical-align: middle;
   }
-
 
   .footer-end-section {
   display: flex;
@@ -917,8 +917,14 @@ margin-top: 30px;
   line-height: 30px;
   color: rgba(61, 61, 61, 1);
   }
+  .footer-end-section a:hover {
+    color: #46a350;
+  }
   .footer-end-section h2 {
   padding-bottom: 10px;
+  font-family: "cerapro-bold";
+  font-size: 1.1rem;
+  color: #3D3D3D;
   }
 
   .end-box-fourth {
