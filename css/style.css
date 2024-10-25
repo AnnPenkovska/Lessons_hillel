@@ -258,11 +258,10 @@
   .category {
   font-family: "cerapro-bold";
   font-size:1.1rem;
+  transition: 0.2s ease;
   }
 
-  .category:hover {
-  color: #46A358;
-  }
+
 
   .assortiment {
   display: flex;
@@ -272,11 +271,11 @@
   cursor: pointer;
   }
   .assortiment:hover {
-  color: #46A358;
+  
   font-family: "cerapro-bold"; 
   }
   .assortiment a:hover{
-  color: #46A358;
+
   font-family: "cerapro-bold";
   }
 
@@ -390,11 +389,9 @@ margin-top: 30px;
   cursor: pointer;
 }
 .size-flowers:hover {
-  color: #46A358;
   font-family: "cerapro-bold"; 
 }
 .size-flowers a:hover{
-  color: #46A358;
   font-family: "cerapro-bold"; 
 }
 
@@ -429,12 +426,12 @@ margin-top: 30px;
 
   .link-content {
   border-bottom: 2px solid transparent;
-  transition: 0.2s ease;
+  transition: 0.1s ease;
   }
 
   .link-content:hover {
-  font-family: "cerapro-bold";
   color: #46A358;
+  font-family: "cerapro-bold";
   border-bottom: 2px solid rgba(70, 163, 88, 1); 
   }
 
@@ -763,6 +760,7 @@ margin-top: 30px;
 
   .blog-link {
     display: flex;
+    gap: 3px;
     align-items: center;
   text-decoration: none;
   font-size: 0.87rem;
@@ -856,6 +854,11 @@ margin-top: 30px;
   padding: 12px 0 12px 12px;
   }
 
+  .email-input:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;   
+  cursor: pointer;
+  } 
+
   .button-join {
   width: 80px;
   height: 35px;
@@ -864,6 +867,9 @@ margin-top: 30px;
   background-color: #46A358;
   border-style: none;
   color: #FFFFFF;
+  }
+  .button-join:hover {
+  background-color: rgba(26, 113, 42, 1);
   }
 
   .footer-gradient {
@@ -930,11 +936,7 @@ margin-top: 30px;
   .end-box-fourth {
   margin-left: 25px;
   }
-  .end-box-fourth img {
-  padding-bottom: 10px;
-  padding-right: 5px;
-  cursor: pointer;
-  }
+ 
   .end-list {
   text-align: center;
   font-size: 0.8rem;
