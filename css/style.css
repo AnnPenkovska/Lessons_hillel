@@ -917,7 +917,7 @@ margin-top: 30px;
   margin-left: 60px;
   }
 
-  .footer-end-section a {
+  .end-box-first a, .end-box-second a, .end-box-third a {
   text-decoration: none;
   font-size: 0.8rem;
   line-height: 30px;
@@ -935,8 +935,46 @@ margin-top: 30px;
 
   .end-box-fourth {
   margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   }
- 
+  .first-half-links {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+  }
+  .svg-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgba(70, 163, 88, 0.2);
+  border-radius: 4px;
+  padding: 6px 6px;
+  transition: 0.2s ease;
+  }
+  .svg-link svg {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .svg-link:first-child {
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+  .svg-link:nth-child(3) {
+    padding-top: 7.5px; 
+    padding-bottom: 7.5px;
+  }
+  .svg-link:nth-child(5) {
+    padding-top: 7.5px; 
+    padding-bottom: 7.5px;
+  }
+  .svg-link:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;  
+  }
+
   .end-list {
   text-align: center;
   font-size: 0.8rem;
