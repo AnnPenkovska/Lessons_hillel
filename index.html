@@ -7,9 +7,83 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
- <header>
-  <div class="header-container">
+  <div class="container">
+    <header id="header">
+      <div class="header-logo"><img class="logo" src="./img/Logosvg.svg" alt="logo"></div>
+      
+      <div class="mob-header-items">
+        <a href="#">
+          <svg class="header-icon" width="20px" height="20px">
+            <use href="./img/sprite2.svg#header-icon-search"></use>
+          </svg>  
+          </a>
+          <a href="#">
+          <svg class="header-icon" width="31px" height="24px">
+            <use href="./img/sprite2.svg#header-icon-basket"></use>
+          </svg>
+         </a>
+        <div class="header-burger">
+          <span></span>
+        </div>
+      </div>
+      <div class="header-nav">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Plant Care
+          <ul class="menu-first-lvl">
+            <li>Drainage</li>
+            <li>Fungicides</li>
+            <li>Fertilizer</li>
+            <li>
+              Priming 
+               <img src="./img/Stroke.png" alt="stroke">
+                <ul class="menu-second-lvl">
+                <li>Universal</li>
+                <li>For Ficus</li>
+                <li>For Cacti</li>
+                <li>For Citrus</li>
+                <li>For those in bloom</li>
+                <li>For Orchid</li>
+              </ul>
+            </li>
+          </ul>
+        </a>
+        <a href="#">Blogs</a>
+      </div>
+      <div class="header-auth">
+        <a href="#">
+          <svg class="header-icon" width="20px" height="20px">
+            <use href="./img/sprite2.svg#header-icon-search"></use>
+          </svg>  
+          </a>
+          <a href="#">
+          <svg class="header-icon" width="31px" height="24px">
+            <use href="./img/sprite2.svg#header-icon-basket"></use>
+          </svg>
+         </a>
+        <button class="button-header"> 
+           <svg width="20px" height="20px">
+          <use href="./img/sprite2.svg#icon-login"></use>
+        </svg>          
+           <a class="login" href="./pages/login.html">Login</a>
+         </button>
+      </div>
+    </header>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- <div class="header-container">
+    <div class="header">
+      <div class="image-logo">
     <img class="logo" src="./img/greenshopimg.jpg" alt="logo">
+    </div>
      <div class="nav-menu">
       <ul class="outer-level-menu">
         <li class="li-row">Home</li>
@@ -55,11 +129,8 @@
          <a class="login" href="./pages/login.html">Login</a>   
     </button>
   </div>
-       </div>
-      <div class="first-line">
-        <span></span>
-      </div>
-   </header>
+   </div>
+    </div> -->
     <main class="welcome-block">
       <div class="first-block">
        <p class="heading">WELCOME TO GREENSHOP</p>
